@@ -5,6 +5,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 app.config['UPLOAD_EXTENSIONS'] = ['.mov', '.mp4', '.m4v', '.jpm', '.jp2', '.3gp', '.3g2', '.mkv', '.mpg', '.ogv', '.webm', '.wmv' ]
+app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024
 
 @app.errorhandler(413)
 def too_large(e):
