@@ -1,3 +1,5 @@
+[![Link Checker](https://github.com/erikkai/flask_and_dropzone/actions/workflows/link-checker.yml/badge.svg)](https://github.com/erikkai/flask_and_dropzone/actions/workflows/link-checker.yml)
+
 # flask_and_dropzone
 Example code for using Flask with Dropzone to upload one or many files along with form data. I made this sample because I didn't see an example available that shows you this particular combination of things in a use case. 
 
